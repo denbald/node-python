@@ -7,5 +7,5 @@ RUN $ apk add --no-cache \
     cairo-dev \
     jpeg-dev \
     pango-dev \
-    giflib-dev
+    giflib-dev \
   && rm -rf /var/cache/apk/* \
