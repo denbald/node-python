@@ -1,4 +1,4 @@
-FROM docker.io/node:10-stretch
+FROM node:10.13-alpine
 
 # Install Python.
 RUN \
