@@ -1,7 +1,7 @@
 FROM node:10.13-alpine
 
 # Install Python.
-RUN $ apk add --no-cache \
+RUN apk add --no-cache \
     build-base \
     g++ \
     cairo-dev \
