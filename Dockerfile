@@ -1,6 +1,6 @@
 FROM node:10.13-alpine
 
-# Install Python && Webpack.
+# Install Python.
 RUN apk add --update --no-cache python \
     build-base \
     g++ \
@@ -8,7 +8,4 @@ RUN apk add --update --no-cache python \
     jpeg-dev \
     pango-dev \
     giflib-dev \
-    npm \
-  && npm install -g webpack webpack-cli\
   && rm -rf /var/cache/apk/* \
-  && rm -rf /var/cache/* /tmp/*  
